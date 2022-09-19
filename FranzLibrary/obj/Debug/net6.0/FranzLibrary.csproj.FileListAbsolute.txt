@@ -1,0 +1,48 @@
+C:\Users\Olaf\Desktop\FranzLibrary\bin\Debug\net6.0\FranzLibrary.deps.json
+C:\Users\Olaf\Desktop\FranzLibrary\bin\Debug\net6.0\FranzLibrary.dll
+C:\Users\Olaf\Desktop\FranzLibrary\bin\Debug\net6.0\FranzLibrary.pdb
+C:\Users\Olaf\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.AssemblyReference.cache
+C:\Users\Olaf\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olaf\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfoInputs.cache
+C:\Users\Olaf\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfo.cs
+C:\Users\Olaf\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Olaf\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.dll
+C:\Users\Olaf\Desktop\FranzLibrary\obj\Debug\net6.0\refint\FranzLibrary.dll
+C:\Users\Olaf\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.pdb
+C:\Users\Olaf\Desktop\FranzLibrary\obj\Debug\net6.0\ref\FranzLibrary.dll
+C:\Users\Administrator\Desktop\FranzLibrary\bin\Debug\net6.0\FranzLibrary.deps.json
+C:\Users\Administrator\Desktop\FranzLibrary\bin\Debug\net6.0\FranzLibrary.dll
+C:\Users\Administrator\Desktop\FranzLibrary\bin\Debug\net6.0\FranzLibrary.pdb
+C:\Users\Administrator\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.dll
+C:\Users\Administrator\Desktop\FranzLibrary\obj\Debug\net6.0\refint\FranzLibrary.dll
+C:\Users\Administrator\Desktop\FranzLibrary\obj\Debug\net6.0\FranzLibrary.pdb
+C:\Users\Administrator\Desktop\FranzLibrary\obj\Debug\net6.0\ref\FranzLibrary.dll
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.deps.json
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.dll
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.pdb
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.AssemblyReference.cache
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.dll
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\refint\FranzLibrary.dll
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.pdb
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\ref\FranzLibrary.dll
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.deps.json
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.dll
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.pdb
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.AssemblyReference.cache
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfoInputs.cache
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfo.cs
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.dll
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\refint\FranzLibrary.dll
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.pdb
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\ref\FranzLibrary.dll

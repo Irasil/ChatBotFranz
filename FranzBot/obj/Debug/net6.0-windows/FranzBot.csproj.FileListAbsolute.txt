@@ -1,0 +1,125 @@
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\bin\Debug\net6.0-windows\FranzBot.exe
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\bin\Debug\net6.0-windows\FranzBot.deps.json
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\bin\Debug\net6.0-windows\FranzBot.runtimeconfig.json
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\bin\Debug\net6.0-windows\FranzBot.dll
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\bin\Debug\net6.0-windows\FranzBot.pdb
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.AssemblyReference.cache
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot_MarkupCompile.cache
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot_MarkupCompile.lref
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot.g.resources
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot.AssemblyInfoInputs.cache
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot.AssemblyInfo.cs
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.CoreCompileInputs.cache
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot.dll
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\refint\FranzBot.dll
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot.pdb
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\FranzBot.genruntimeconfig.cache
+C:\Users\Franz\Desktop\VSTUDIO\FranzBot\obj\Debug\net6.0-windows\ref\FranzBot.dll
+C:\Users\Olaf\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzBot.exe
+C:\Users\Olaf\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzBot.deps.json
+C:\Users\Olaf\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzBot.runtimeconfig.json
+C:\Users\Olaf\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzBot.dll
+C:\Users\Olaf\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzBot.pdb
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.AssemblyReference.cache
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot_MarkupCompile.cache
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot_MarkupCompile.lref
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.g.resources
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.AssemblyInfoInputs.cache
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.AssemblyInfo.cs
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.CoreCompileInputs.cache
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.dll
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\refint\FranzBot.dll
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.pdb
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.genruntimeconfig.cache
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\ref\FranzBot.dll
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot_Content.g.cs
+C:\Users\Olaf\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzLibrary.dll
+C:\Users\Olaf\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzLibrary.pdb
+C:\Users\Olaf\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.CopyComplete
+C:\Users\Administrator\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzBot.exe
+C:\Users\Administrator\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzBot.deps.json
+C:\Users\Administrator\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzBot.runtimeconfig.json
+C:\Users\Administrator\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzBot.dll
+C:\Users\Administrator\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzBot.pdb
+C:\Users\Administrator\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzLibrary.dll
+C:\Users\Administrator\Desktop\FranzBot\bin\Debug\net6.0-windows\FranzLibrary.pdb
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot_Content.g.cs
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot_MarkupCompile.cache
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot_MarkupCompile.lref
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.g.resources
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.CopyComplete
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.dll
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\refint\FranzBot.dll
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.pdb
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\FranzBot.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\FranzBot\obj\Debug\net6.0-windows\ref\FranzBot.dll
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.exe
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.deps.json
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.runtimeconfig.json
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.dll
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.pdb
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzLibrary.dll
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzLibrary.pdb
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.AssemblyReference.cache
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot_Content.g.cs
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot_MarkupCompile.cache
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot_MarkupCompile.lref
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.g.resources
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.CopyComplete
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.dll
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\refint\FranzBot.dll
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.pdb
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\ref\FranzBot.dll
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.exe
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.deps.json
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.runtimeconfig.json
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.dll
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.pdb
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzLibrary.dll
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzLibrary.pdb
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.AssemblyReference.cache
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot_Content.g.cs
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot_MarkupCompile.cache
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot_MarkupCompile.lref
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.g.resources
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.AssemblyInfoInputs.cache
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.AssemblyInfo.cs
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.CoreCompileInputs.cache
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.csproj.CopyComplete
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.dll
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\refint\FranzBot.dll
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.pdb
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\FranzBot.genruntimeconfig.cache
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\ref\FranzBot.dll
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\win2.g.cs
+C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\win2.baml
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\win2.g.cs
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\win2.baml
