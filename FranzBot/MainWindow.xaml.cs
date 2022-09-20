@@ -35,7 +35,6 @@ namespace FranzBot
             BotEngine botEngine = new BotEngine();
             Message output = new Message();
             string answer;
-            MessageBox.Show("");
             try
             {
                 switch (endung)
@@ -61,10 +60,14 @@ namespace FranzBot
                 textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n User: {input} \n\n {DateTime.Now} \n Bot: {answer} \n";
 
             }
+            catch(ArgumentException ax)
+            {
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: Fehler mit der File => + {ax.Message} \n";
+            }
             catch (Exception ex)
             {
 
-                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: {ex} \n";
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: Fehler => {ex.Message} \n";
             }
             finally
             {
@@ -102,7 +105,7 @@ namespace FranzBot
             catch (Exception ex)
             {
 
-                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: {ex} \n";
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: File konnte nicht gespeichert werden => {ex.Message} \n";
             }
         }
 
@@ -132,7 +135,7 @@ namespace FranzBot
             catch (Exception ex)
             {
 
-                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: {ex} \n";
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: File konnte nicht geöffnet werden => {ex.Message} \n";
             }
         }
 
@@ -152,8 +155,16 @@ namespace FranzBot
         /// <param name="e"></param>
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)
         {
-            win2 insert = new win2();
-            insert.Show();
+            try
+            {
+                win2 insert = new win2();
+                insert.Show();
+            }
+            catch (Exception ex)
+            {
+
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: Keyword und Antwort konnte nicht eingefügt werden => {ex.Message} \n";
+            }
         }
 
         /// <summary>
