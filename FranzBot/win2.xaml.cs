@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.IO;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace FranzBot
 {
@@ -20,11 +9,19 @@ namespace FranzBot
     /// </summary>
     public partial class win2 : Window
     {
+        /// <summary>
+        /// Inizialisierung des Fensters
+        /// </summary>
         public win2()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Speichert das neue Keyword und die Andswer ( Bis jetzt nur in die von uns mitgeleieferten CSV Liste)
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button_Click(object sender, RoutedEventArgs e)
         {
             string writefile = @"List.csv";

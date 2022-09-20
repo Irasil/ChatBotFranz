@@ -37,14 +37,14 @@ namespace FranzBot
             string answer;
             switch (endung)
             {
-                case "txt":
-                    output = botEngine.getAnswer2(input, pfad);
-                    answer = output.ToString();
-                    break;
                 case "xml":
                     output = botEngine.getAnswer(input, pfad);
-                    answer = output.ToString();                    
-                    break ;
+                    answer = output.ToString();
+                    break;
+                case "txt":
+                    output = botEngine.getAnswer1(input, pfad);
+                    answer = output.ToString();
+                    break;
                 case "csv":
                     output = botEngine.getAnswer1(input, pfad);
                     answer = output.ToString();

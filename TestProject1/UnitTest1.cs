@@ -2,9 +2,18 @@ using FranzBot;
 
 namespace TestProject1
 {
+    /// <summary>
+    /// Unit Test des ChatBotFranz
+    /// </summary>
     public class UnitTest1
-    {
+    {   
+        /// <summary>
+        /// Das erwartete Return des Methode Load()
+        /// </summary>
         private const string Expected = "Hallo";
+        /// <summary>
+        /// Load() unit Test
+        /// </summary>
         [Fact]
         public void Test1()
         {

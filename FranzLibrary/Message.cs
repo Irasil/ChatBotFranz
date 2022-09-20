@@ -7,9 +7,12 @@
     {
 
         /// <summary>
-        /// Properties 
+        /// Keyword auf welches reagiert wird
         /// </summary>
          public string keyword { get; set; }
+        /// <summary>
+        /// Andswer in der die Antwort auf das Keyword gespeichert wird
+        /// </summary>
          public string answer { get; set; }
 
         /// <summary>
