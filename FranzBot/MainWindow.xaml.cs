@@ -12,8 +12,8 @@ namespace FranzBot
     /// </summary>
     public partial class MainWindow : Window
     {
-        public string pfad;
-        public string endung;
+        public string pfad = "List.csv";
+        public string? endung;
         /// <summary>
         /// Initialisiert das Fenster der Applikation 
         /// </summary>
@@ -25,6 +25,7 @@ namespace FranzBot
         /// <summary>
         /// Instanziiert das Objekt botEngine, ruft die Methode getAnswer mit dem Imput als Paremeter auf.
         /// Ausgabe der Antwort in die TextBox und löschen des Eingabefelds
+        /// Switch Case wenn eine andere Keywordliste, als die mitgelieferte ausgewählt wurde
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -49,7 +50,6 @@ namespace FranzBot
                     answer = output.ToString();
                     break;
                 default:
-                    pfad = "List.csv";
                     output = botEngine.getAnswer1(input, pfad);
                     answer = output.ToString();
                     break;
@@ -71,14 +71,13 @@ namespace FranzBot
             Close();
         }
 
+        /// <summary>
+        /// Speichert den Inhalt des Chatverlaufs in eine vom User gewählte Datei
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
-            //string writefile = @"log.txt";
-            //using (StreamWriter writer = new StreamWriter(writefile, append: true, Encoding.Default))
-            //{
-            //    writer.WriteLine(textBox1.Text);
-            //}
-
             SaveFileDialog Savedlg = new SaveFileDialog();
             Savedlg.Filter = "Text file(*.text)|*.txt|c# file(*.cs)|*.cs|Word file(*.doc)|*.doc";
             if (Savedlg.ShowDialog() == true)
@@ -87,6 +86,12 @@ namespace FranzBot
             }
         }
 
+        /// <summary>
+        /// Öffnet die zu verwendende Keywordliste. In den Formaten .xml, .csv oder .txt.
+        /// Speichert den Pfad und ruft die Methode Endung() auf.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
             // Create OpenFileDialog 
@@ -102,17 +107,32 @@ namespace FranzBot
                 Endung(selectedFile);
             }
         }
-            private void Endung(string input)
-        {
-           endung = input.Substring(input.Length - 3);
-        }
 
+        /// <summary>
+        /// Speichert die 3 letzten Stellen von dem dem Pfad
+        /// </summary>
+        /// <param name="input">Pfad der ausgewählten Keywordliste</param>
+        private void Endung(string input)
+            {
+               endung = input.Substring(input.Length - 3);
+            }
+
+        /// <summary>
+        /// Öffnet das Fenster für die Eingabe von neuen Keywords und Andswers
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)
         {
-            win2 p = new win2();
-            p.Show();
+            win2 insert = new win2();
+            insert.Show();
         }
 
+        /// <summary>
+        /// Öffnet Messagebox mit den Informationen über diese Applikation
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuItem_Click_4(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Dies ist der FranzBot von David, Sasa und Simon \n\n Version 2.1", "About",
