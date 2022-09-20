@@ -46,3 +46,15 @@ C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotF
 C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\refint\FranzLibrary.dll
 C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.pdb
 C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\ref\FranzLibrary.dll
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.deps.json
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.dll
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.pdb
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.AssemblyReference.cache
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfoInputs.cache
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfo.cs
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.dll
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\refint\FranzLibrary.dll
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.pdb
+C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\ref\FranzLibrary.dll

@@ -35,30 +35,42 @@ namespace FranzBot
             BotEngine botEngine = new BotEngine();
             Message output = new Message();
             string answer;
-            switch (endung)
+            MessageBox.Show("");
+            try
             {
-                case "xml":
-                    output = botEngine.getAnswer(input, pfad);
-                    answer = output.ToString();
-                    break;
-                case "txt":
-                    output = botEngine.getAnswer1(input, pfad);
-                    answer = output.ToString();
-                    break;
-                case "csv":
-                    output = botEngine.getAnswer1(input, pfad);
-                    answer = output.ToString();
-                    break;
-                default:
-                    output = botEngine.getAnswer1(input, pfad);
-                    answer = output.ToString();
-                    break;
-                    
-            }
-            textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n User: {input} \n\n {DateTime.Now} \n Bot: {answer} \n";
+                switch (endung)
+                {
+                    case "xml":
+                        output = botEngine.getAnswer(input, pfad);
+                        answer = output.ToString();
+                        break;
+                    case "txt":
+                        output = botEngine.getAnswer1(input, pfad);
+                        answer = output.ToString();
+                        break;
+                    case "csv":
+                        output = botEngine.getAnswer1(input, pfad);
+                        answer = output.ToString();
+                        break;
+                    default:
+                        output = botEngine.getAnswer1(input, pfad);
+                        answer = output.ToString();
+                        break;
 
-            textBox1.ScrollToEnd();
-            textBox.Clear();
+                }
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n User: {input} \n\n {DateTime.Now} \n Bot: {answer} \n";
+
+            }
+            catch (Exception ex)
+            {
+
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: {ex} \n";
+            }
+            finally
+            {
+                textBox1.ScrollToEnd();
+                textBox.Clear();
+            }
         }
 
         /// <summary>
@@ -80,9 +92,17 @@ namespace FranzBot
         {
             SaveFileDialog Savedlg = new SaveFileDialog();
             Savedlg.Filter = "Text file(*.text)|*.txt|c# file(*.cs)|*.cs|Word file(*.doc)|*.doc";
-            if (Savedlg.ShowDialog() == true)
+            try
             {
-                File.WriteAllText(Savedlg.FileName, textBox1.Text);
+                if (Savedlg.ShowDialog() == true)
+                {
+                    File.WriteAllText(Savedlg.FileName, textBox1.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: {ex} \n";
             }
         }
 
@@ -100,11 +120,19 @@ namespace FranzBot
             Opendlg.Filter = "Text file(*.text)|*.txt|XML documents(.xml)|*.xml|CSV file(.csv)|*.csv";
 
 
-            if (Opendlg.ShowDialog() == true)
+            try
             {
-                string selectedFile = Opendlg.FileName;
-                pfad = selectedFile;
-                Endung(selectedFile);
+                if (Opendlg.ShowDialog() == true)
+                {
+                    string selectedFile = Opendlg.FileName;
+                    pfad = selectedFile;
+                    Endung(selectedFile);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: {ex} \n";
             }
         }
 

@@ -18,7 +18,7 @@
         /// <summary>
         /// Standart Konstruktor
         /// </summary>
-        public Message()
+        public Message()  
         {
             keyword = string.Empty;
             answer = string.Empty;

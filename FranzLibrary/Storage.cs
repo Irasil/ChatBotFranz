@@ -23,22 +23,73 @@ namespace FranzBot
             string Answer = string.Empty;
             string answer = string.Empty;
 
-            using (XmlReader reader = XmlReader.Create(end))
+            try
             {
-                while (reader.Read())
+                using (XmlReader reader = XmlReader.Create(end))
                 {
-                    if (reader.IsStartElement())
-                    { 
-                        switch (reader.Name.ToString())
+                    while (reader.Read())
+                    {
+                        if (reader.IsStartElement())
                         {
-                            case "Frage":
-                                keyword = reader.ReadString();
-                                break;
-                            case "Antwort":
-                                answer = reader.ReadString();
-                                break;
+                            switch (reader.Name.ToString())
+                            {
+                                case "Frage":
+                                    keyword = reader.ReadString();
+                                    break;
+                                case "Antwort":
+                                    answer = reader.ReadString();
+                                    break;
+                            }
+                        }
+                        message.Add(new Message(keyword, answer));
+
+                        foreach (Message e in message)
+                        {
+                            if (_input.Contains(e.keyword, StringComparison.OrdinalIgnoreCase))
+                            {
+                                Answer = e.answer;
+                            }
                         }
                     }
+
+                    if (Answer == string.Empty)
+                    {
+                        Answer = "Ich habe dich leider nicht verstanden";
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Fehler! : {ex}");
+            }
+            return Answer;
+        }
+        /// <summary>
+        /// Methode um eine txt oder csv Keyword-Liste inzulesen und um die Keywords mit dem Input des Users zu vergleichen
+        /// </summary>
+        /// <param name="_input"></param>
+        /// <returns>Die Antwort als String oder das kein Keyword eingegebn wurde</returns>
+        public string Load1(string _input, string end)
+        {
+            var reader = new StreamReader(end);
+            string keyword = "0";
+
+            string Answer = string.Empty;
+            try
+            {
+                while (!reader.EndOfStream)
+                {
+
+                    var line = reader.ReadLine();
+
+                    if (line == null)
+                    { continue; }
+
+                    var data = line.Split(";");
+
+                    keyword = data[0];
+                    string answer = data[1];
+
                     message.Add(new Message(keyword, answer));
 
                     foreach (Message e in message)
@@ -55,46 +106,10 @@ namespace FranzBot
                     Answer = "Ich habe dich leider nicht verstanden";
                 }
             }
-            return Answer;
-        }
-        /// <summary>
-        /// Methode um eine txt oder csv Keyword-Liste inzulesen und um die Keywords mit dem Input des Users zu vergleichen
-        /// </summary>
-        /// <param name="_input"></param>
-        /// <returns>Die Antwort als String oder das kein Keyword eingegebn wurde</returns>
-        public string Load1(string _input, string end)
-        {
-            var reader = new StreamReader(end);
-            string keyword = "0";
-
-            string Answer = string.Empty;
-            while (!reader.EndOfStream)
+            catch (Exception ex)
             {
 
-                var line = reader.ReadLine();
-
-                if (line == null)
-                { continue; }
-
-                var data = line.Split(";");
-
-                keyword = data[0];
-                string answer = data[1];
-
-                message.Add(new Message(keyword, answer));
-
-                foreach (Message e in message)
-                {
-                    if (_input.Contains(e.keyword, StringComparison.OrdinalIgnoreCase))
-                    {
-                        Answer = e.answer;
-                    }
-                }
-            }
-
-            if (Answer == string.Empty)
-            {
-                Answer = "Ich habe dich leider nicht verstanden";
+                Console.WriteLine($"Fehler! : {ex}"); ;
             }
             return Answer;
         }       

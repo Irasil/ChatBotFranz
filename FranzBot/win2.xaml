@@ -12,10 +12,10 @@
             <RowDefinition Height="62*"/>
         </Grid.RowDefinitions>
         <Button x:Name="button" Content="Einfügen" HorizontalAlignment="Left" Margin="308,13,0,0" VerticalAlignment="Top" Height="27" Width="97" Click="button_Click" Grid.Row="1"/>
-        <Label x:Name="label" Content="Keyword einfügen" HorizontalAlignment="Left" Margin="58,93,0,0" VerticalAlignment="Top" Height="26" Width="106"/>
-        <Label x:Name="label1" Content="Antwort einfügen" HorizontalAlignment="Left" Margin="285,93,0,0" VerticalAlignment="Top" Height="26" Width="106"/>
-        <TextBox x:Name="tb_key" HorizontalAlignment="Left" Margin="58,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="18"/>
-        <TextBox x:Name="tb_answer" HorizontalAlignment="Left" Margin="285,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="18"/>
+        <Label x:Name="label" Content="Keyword einfügen" HorizontalAlignment="Left" Margin="67,93,0,0" VerticalAlignment="Top" Height="26" Width="106"/>
+        <Label x:Name="label1" Content="Antwort einfügen" HorizontalAlignment="Left" Margin="279,93,0,0" VerticalAlignment="Top" Height="26" Width="106"/>
+        <TextBox x:Name="tb_key" HorizontalAlignment="Left" Margin="60,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="18"/>
+        <TextBox x:Name="tb_answer" HorizontalAlignment="Left" Margin="272,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="18"/>
 
     </Grid>
 </Window>
