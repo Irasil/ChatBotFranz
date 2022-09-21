@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿using FranzLibrary;
+using Microsoft.Win32;
 using System;
 using System.IO;
 using System.Linq;
@@ -17,6 +18,7 @@ namespace FranzBot
     {
         public string pfad = "List.csv";
         public string? endung;
+        string answer;
         /// <summary>
         /// Initialisiert das Fenster der Applikation 
         /// </summary>
@@ -37,11 +39,34 @@ namespace FranzBot
             string input = textBox.Text;
             BotEngine botEngine = new BotEngine();
             Message output = new Message();
-            string answer;
+            
             try
             {
-                switch (endung)
-                {
+            string[] zeichen =  { "-", "+", "*", ":" , "/"};
+            if (zeichen.Any(input.Contains)){
+
+                
+                string p = input;
+                string s2 = "+";
+                bool b = p.Contains(s2);
+                if (b == true) {answer = Calculate.plus2(ref p); }
+                string s3 = "-";
+                bool a = p.Contains(s3);
+                if (a == true) { answer = Calculate.minus2(ref p); }
+                string s4 = "*";
+                bool n = p.Contains(s4);
+                if (n == true) { answer = Calculate.mal2(ref p); }
+                string s5 = ":";
+                bool m = p.Contains(s5);
+                if (m == true) { answer = Calculate.durch2(ref p); }
+                string s6 = "/";
+                bool q = p.Contains(s6);
+                if (m == true) { answer = Calculate.durch2(ref p); }
+                if (m == false & n == false & a == false & b == false & q == false) { answer = "Ich habe dich leider nicht verstanden"; }
+            }
+            else {
+                    switch (endung)
+                    {
                     case "xml":
                         output = botEngine.getAnswer(input, pfad);
                         answer = output.ToString();
@@ -59,7 +84,9 @@ namespace FranzBot
                         answer = output.ToString();
                         break;
 
-                }
+                    } 
+                }           
+                
                 textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n User: {input}";
                 textBox.Clear();   
 
