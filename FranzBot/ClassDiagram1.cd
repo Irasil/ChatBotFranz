@@ -1,34 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="ChatBot.BotEngine">
-    <Position X="6.25" Y="0.75" Width="3.5" />
+  <Class Name="FranzBot.MainWindow">
+    <Position X="1.5" Y="4.25" Width="6" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAACA=</HashCode>
-      <FileName>BotEngine.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ChatBot.MainWindow">
-    <Position X="5" Y="3.5" Width="3.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAEAAIABAAAI=</HashCode>
       <FileName>MainWindow.xaml.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ChatBot.Message">
-    <Position X="0.5" Y="0.5" Width="2.75" />
+  <Class Name="FranzBot.win2">
+    <Position X="2" Y="2" Width="4" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAAAI=</HashCode>
-      <FileName>Message.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ChatBot.Storage">
-    <Position X="1" Y="3.5" Width="3.25" />
-    <TypeIdentifier>
-      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
-      <FileName>Storage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>win2.xaml.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FranzBot.BotEngine">
+    <Position X="7.25" Y="1.75" Width="3.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FranzLibrary.Calculate">
+    <Position X="11.75" Y="1.75" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FranzBot.Message">
+    <Position X="13" Y="4.75" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FranzBot.Storage">
+    <Position X="8.5" Y="4.75" Width="4.25" />
+    <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
