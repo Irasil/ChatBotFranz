@@ -1,7 +1,10 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.IO;
+using System.Linq;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Documents;
 
@@ -29,7 +32,7 @@ namespace FranzBot
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void send_Click(object sender, RoutedEventArgs e)
+        private async void send_Click(object sender, RoutedEventArgs e)
         {
             string input = textBox.Text;
             BotEngine botEngine = new BotEngine();
@@ -57,7 +60,23 @@ namespace FranzBot
                         break;
 
                 }
-                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n User: {input} \n\n {DateTime.Now} \n Bot: {answer} \n";
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n User: {input}";
+                textBox.Clear();   
+
+
+                string text = textBox1.Text;
+
+                textBox1.Text = $"{textBox1.Text} \n \n Bot schreibt...";
+                textBox1.Text = $"{textBox1.Text}  \n .";
+                await Task.Delay(500);                
+                textBox1.Text = $"{textBox1.Text}  .";
+                await Task.Delay(500);
+                textBox1.Text = $"{textBox1.Text}  .";
+                await Task.Delay(1000);
+
+                textBox1.Clear();
+                textBox1.Text = text;
+                textBox1.Text = $"{textBox1.Text} \n\n {DateTime.Now} \n Bot: {answer} \n";
 
             }
             catch(ArgumentException ax)
@@ -75,6 +94,7 @@ namespace FranzBot
                 textBox.Clear();
             }
         }
+       
 
         /// <summary>
         /// Schliesst die Anwendung
