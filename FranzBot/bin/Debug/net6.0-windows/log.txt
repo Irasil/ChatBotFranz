@@ -1,0 +1,24 @@
+ 
+ 22/09/2022 08:22:13 
+ User: 1+5 
+
+ 22/09/2022 08:22:15 
+ Bot: 6 
+ 
+ 22/09/2022 08:22:27 
+ User: Hallo 
+
+ 22/09/2022 08:22:29 
+ Bot: Guten Tag 
+ 
+ 22/09/2022 08:22:33 
+ User: Wie geht es dir 
+
+ 22/09/2022 08:22:35 
+ Bot: Ich habe dich leider nicht verstanden 
+ 
+ 22/09/2022 08:23:21 
+ User: Ich liebe Sie 
+
+ 22/09/2022 08:23:23 
+ Bot: Nein Danke 

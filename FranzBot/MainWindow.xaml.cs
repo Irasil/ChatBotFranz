@@ -108,7 +108,7 @@ namespace FranzBot
             }
             catch(ArgumentException ax)
             {
-                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: Fehler mit der File => + {ax.Message} \n";
+                textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n Bot: Fehler mit der File => {ax.Message} \n";
             }
             catch (Exception ex)
             {
@@ -221,7 +221,7 @@ namespace FranzBot
         /// <param name="e"></param>
         private void MenuItem_Click_4(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Dies ist der FranzBot von David, Sasa und Simon \n\n Version 2.1", "About",
+            MessageBox.Show("Dies ist der FranzBot von David, Sasa und Simon \n\n Version 3.1", "About",
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }
