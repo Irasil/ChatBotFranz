@@ -70,3 +70,15 @@ C:\Users\Franz\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\Fr
 C:\Users\Franz\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\refint\FranzLibrary.dll
 C:\Users\Franz\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.pdb
 C:\Users\Franz\Source\Repos\Irasil\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\ref\FranzLibrary.dll
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.deps.json
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.dll
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\bin\Debug\net6.0\FranzLibrary.pdb
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.AssemblyReference.cache
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfoInputs.cache
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.AssemblyInfo.cs
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.csproj.CoreCompileInputs.cache
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.dll
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\refint\FranzLibrary.dll
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\FranzLibrary.pdb
+C:\Users\David Mangold\OneDrive - ipso! Bildung\Dokumente\Github\chatbotSDS\ChatBotFranz\FranzLibrary\obj\Debug\net6.0\ref\FranzLibrary.dll

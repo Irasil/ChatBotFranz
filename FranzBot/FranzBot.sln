@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FranzBot", "FranzBot.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FranzLibrary", "..\FranzLibrary\FranzLibrary.csproj", "{B54BD68A-FB48-4182-93F8-9AF4B1DC3D25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{CA2759BB-B5B9-4E93-A82F-4344228AC346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FranzTest", "..\TestProject1\FranzTest.csproj", "{CA2759BB-B5B9-4E93-A82F-4344228AC346}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

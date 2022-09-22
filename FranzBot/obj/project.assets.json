@@ -27,19 +27,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Franz\\.nuget\\packages\\": {}
+    "C:\\Users\\David Mangold\\.nuget\\packages\\": {},
+    "C:\\Users\\David Mangold\\OneDrive - ipso! Bildung\\Desktop\\DefexpressLibrariy\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Franz\\Source\\Repos\\Irasil\\ChatBotFranz\\FranzBot\\FranzBot.csproj",
+      "projectUniqueName": "C:\\Users\\David Mangold\\OneDrive - ipso! Bildung\\Dokumente\\Github\\chatbotSDS\\ChatBotFranz\\FranzBot\\FranzBot.csproj",
       "projectName": "FranzBot",
-      "projectPath": "C:\\Users\\Franz\\Source\\Repos\\Irasil\\ChatBotFranz\\FranzBot\\FranzBot.csproj",
-      "packagesPath": "C:\\Users\\Franz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Franz\\Source\\Repos\\Irasil\\ChatBotFranz\\FranzBot\\obj\\",
+      "projectPath": "C:\\Users\\David Mangold\\OneDrive - ipso! Bildung\\Dokumente\\Github\\chatbotSDS\\ChatBotFranz\\FranzBot\\FranzBot.csproj",
+      "packagesPath": "C:\\Users\\David Mangold\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\David Mangold\\OneDrive - ipso! Bildung\\Dokumente\\Github\\chatbotSDS\\ChatBotFranz\\FranzBot\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Users\\David Mangold\\OneDrive - ipso! Bildung\\Desktop\\DefexpressLibrariy\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Franz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\David Mangold\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -47,14 +55,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\David Mangold\\OneDrive - ipso! Bildung\\Desktop\\DefexpressLibrariy\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Franz\\Source\\Repos\\Irasil\\ChatBotFranz\\FranzLibrary\\FranzLibrary.csproj": {
-              "projectPath": "C:\\Users\\Franz\\Source\\Repos\\Irasil\\ChatBotFranz\\FranzLibrary\\FranzLibrary.csproj"
+            "C:\\Users\\David Mangold\\OneDrive - ipso! Bildung\\Dokumente\\Github\\chatbotSDS\\ChatBotFranz\\FranzLibrary\\FranzLibrary.csproj": {
+              "projectPath": "C:\\Users\\David Mangold\\OneDrive - ipso! Bildung\\Dokumente\\Github\\chatbotSDS\\ChatBotFranz\\FranzLibrary\\FranzLibrary.csproj"
             }
           }
         }
