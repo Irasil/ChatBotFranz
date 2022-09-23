@@ -7,10 +7,18 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="win3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="win2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="win3.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

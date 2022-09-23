@@ -214,5 +214,13 @@ namespace FranzBot
             MessageBox.Show("Dies ist der FranzBot von David, Sasa und Simon \n\n Version 3.1", "About",
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
+
+        private void MenuItem_Click_5(object sender, RoutedEventArgs e)
+        {
+
+            win3 insert = new win3();
+            insert.Show();
+
+        }
     }
 }

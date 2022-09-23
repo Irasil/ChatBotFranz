@@ -21,6 +21,7 @@
             <Menu DockPanel.Dock="Top" Background="LightGray">
                 <MenuItem Header="_File">
                     <MenuItem Header="_Open" Click="MenuItem_Click_2" />
+                    <MenuItem Header="_Open SQL Connection" Click="MenuItem_Click_5" />
                     <MenuItem Header="_Save as Log" Click="MenuItem_Click_1" />
                     <Separator />
                     <MenuItem Header="_Exit" Click="MenuItem_Click" />
