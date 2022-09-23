@@ -16,7 +16,7 @@ namespace FranzLibrary
         /// </summary>
         /// <param name="p">I</param>
         /// <returns>Ergebnis als String</returns>
-        public static string plus2(ref string p)
+        public static string plus(ref string p)
         {
             string eingabe1 = p.Substring(0, p.IndexOf("+"));
             string zwischen = p.Substring(p.IndexOf("+") + 1);
@@ -32,7 +32,7 @@ namespace FranzLibrary
         /// </summary>
         /// <param name="p">I</param>
         /// <returns>Ergebnis als String</returns>
-        public static string minus2(ref string p)
+        public static string minus(ref string p)
         {
             string eingabe1 = p.Substring(0, p.IndexOf("-"));
             string zwischen = p.Substring(p.IndexOf("-") + 1);
@@ -48,7 +48,7 @@ namespace FranzLibrary
         /// </summary>
         /// <param name="p">I</param>
         /// <returns>Ergebnis als String</returns>
-        public static string mal2(ref string p)
+        public static string mal(ref string p)
         {
             string eingabe1 = p.Substring(0, p.IndexOf("*"));
             string zwischen = p.Substring(p.IndexOf("*") + 1);
@@ -65,7 +65,7 @@ namespace FranzLibrary
         /// </summary>
         /// <param name="p">I</param>
         /// <returns>Ergebnis als String</returns>
-        public static string durch2(ref string p)
+        public static string durch(ref string p)
         {
             string eingabe1 = p.Substring(0, p.IndexOf(":"));
             string zwischen = p.Substring(p.IndexOf(":") + 1);
@@ -81,7 +81,7 @@ namespace FranzLibrary
         /// </summary>
         /// <param name="p">I</param>
         /// <returns>Ergebnis als String</returns>
-        public static string durch3(ref string p)
+        public static string durch2(ref string p)
         {
             string eingabe1 = p.Substring(0, p.IndexOf("/"));
             string zwischen = p.Substring(p.IndexOf("/") + 1);

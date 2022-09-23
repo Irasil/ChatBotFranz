@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\David Mangold\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\David Mangold\\.nuget\\packages",
-      "C:\\Users\\David Mangold\\OneDrive - ipso! Bildung\\Desktop\\DefexpressLibrariy\\Components\\Offline Packages",
+      "C:\\Users\\Administrator\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Administrator\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

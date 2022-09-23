@@ -3,12 +3,8 @@ using Microsoft.Win32;
 using System;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Documents;
-
 namespace FranzBot
 {
     /// <summary>
@@ -18,7 +14,8 @@ namespace FranzBot
     {
         public string pfad = "List.csv";
         public string? endung;
-        string answer;
+        string? answer;
+        public IStorage? _storage;
         /// <summary>
         /// Initialisiert das Fenster der Applikation 
         /// </summary>
@@ -40,6 +37,7 @@ namespace FranzBot
             BotEngine botEngine = new BotEngine();
             Message output = new Message();
             
+            
             try
             {
             string[] zeichen =  { "-", "+", "*", ":" , "/"};
@@ -49,16 +47,16 @@ namespace FranzBot
                 string p = input;
                 string s2 = "+";
                 bool b = p.Contains(s2);
-                if (b == true) {answer = Calculate.plus2(ref p); }
+                if (b == true) {answer = Calculate.plus(ref p); }
                 string s3 = "-";
                 bool a = p.Contains(s3);
-                if (a == true) { answer = Calculate.minus2(ref p); }
+                if (a == true) { answer = Calculate.minus(ref p); }
                 string s4 = "*";
                 bool n = p.Contains(s4);
-                if (n == true) { answer = Calculate.mal2(ref p); }
+                if (n == true) { answer = Calculate.mal(ref p); }
                 string s5 = ":";
                 bool m = p.Contains(s5);
-                if (m == true) { answer = Calculate.durch2(ref p); }
+                if (m == true) { answer = Calculate.durch(ref p); }
                 string s6 = "/";
                 bool q = p.Contains(s6);
                 if (m == true) { answer = Calculate.durch2(ref p); }
@@ -68,23 +66,15 @@ namespace FranzBot
                     switch (endung)
                     {
                     case "xml":
-                        output = botEngine.getAnswer(input, pfad);
-                        answer = output.ToString();
-                        break;
-                    case "txt":
-                        output = botEngine.getAnswer1(input, pfad);
-                        answer = output.ToString();
-                        break;
-                    case "csv":
-                        output = botEngine.getAnswer1(input, pfad);
-                        answer = output.ToString();
+                        output = botEngine.getAnswer(input, pfad, new XML_Storage());
+                            answer = output.ToString();
                         break;
                     default:
-                        output = botEngine.getAnswer1(input, pfad);
+                        output = botEngine.getAnswer(input, pfad, new CSV_TXT_Storage());
                         answer = output.ToString();
                         break;
 
-                    } 
+                    }
                 }           
                 
                 textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n User: {input}";
