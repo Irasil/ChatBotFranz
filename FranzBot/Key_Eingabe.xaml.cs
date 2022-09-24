@@ -7,12 +7,12 @@ namespace FranzBot
     /// <summary>
     /// Interaction logic for win2.xaml
     /// </summary>
-    public partial class win2 : Window
+    public partial class Key_Eingabe : Window
     {
         /// <summary>
         /// Inizialisierung des Fensters
         /// </summary>
-        public win2()
+        public Key_Eingabe()
         {
             InitializeComponent();
         }

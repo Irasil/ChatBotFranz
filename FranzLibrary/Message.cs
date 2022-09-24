@@ -9,16 +9,16 @@
         /// <summary>
         /// Keyword auf welches reagiert wird
         /// </summary>
-         public string keyword { get; set; }
+        public string keyword { get; set; }
         /// <summary>
         /// Andswer in der die Antwort auf das Keyword gespeichert wird
         /// </summary>
-         public string answer { get; set; }
+        public string answer { get; set; }
 
         /// <summary>
         /// Standart Konstruktor
         /// </summary>
-        public Message()  
+        public Message()
         {
             keyword = string.Empty;
             answer = string.Empty;

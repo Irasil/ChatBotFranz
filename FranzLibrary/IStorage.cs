@@ -6,9 +6,17 @@ using System.Threading.Tasks;
 
 namespace FranzLibrary
 {
+    /// <summary>
+    /// Interface zum implementieren von Load() 
+    /// </summary>
     public interface IStorage
     {
-
-        public string Load(string _input, string end);
+        /// <summary>
+        /// Methode die Implementiert werden muss.
+        /// </summary>
+        /// <param name="_input"></param>
+        /// <param name="end"></param>
+        /// <returns></returns>
+        abstract string Load(string _input, string end);
     }
 }

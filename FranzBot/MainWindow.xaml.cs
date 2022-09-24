@@ -16,12 +16,40 @@ namespace FranzBot
         public string? endung;
         string? answer;
         public IStorage? _storage;
+
+        /// <summary>
+        /// Varibel zum speichern des SQL-Server Name
+        /// </summary>
+        private static string dbname = "";
+
+        public static string DbName
+        {
+            get { return dbname; }
+            set { dbname = value; }
+
+        }
+
+        /// <summary>
+        /// Variabel zum speichern des Tabellen Namen
+        /// </summary>
+        private static string sqlname = "";
+
+        public static string SqlName
+        {
+            get { return sqlname; }
+            set { sqlname = value; }
+
+        }
+
+
+
         /// <summary>
         /// Initialisiert das Fenster der Applikation 
         /// </summary>
         public MainWindow()
         {
-            InitializeComponent();            
+            InitializeComponent();   
+           
         }
 
         /// <summary>
@@ -63,18 +91,28 @@ namespace FranzBot
                 if (m == false & n == false & a == false & b == false & q == false) { answer = "Ich habe dich leider nicht verstanden"; }
             }
             else {
-                    switch (endung)
-                    {
-                    case "xml":
-                        output = botEngine.getAnswer(input, pfad, new XML_Storage());
-                            answer = output.ToString();
-                        break;
-                    default:
-                        output = botEngine.getAnswer(input, pfad, new CSV_TXT_Storage());
-                        answer = output.ToString();
-                        break;
 
+                    if(dbname != "")
+                    {
+                        pfad = @$"Server={sqlname};Database={dbname};Integrated Security=True;Pooling=False";
+                        output = botEngine.getAnswer(input, pfad, new SQL_Storage());
+                        answer = output.ToString();
                     }
+                    else
+                    {
+                        switch (endung)
+                        {
+                        case "xml":
+                            output = botEngine.getAnswer(input, pfad, new XML_Storage());
+                            answer = output.ToString();
+                            break;
+                        default:
+                            output = botEngine.getAnswer(input, pfad, new CSV_TXT_Storage());
+                            answer = output.ToString();
+                            break;
+                        }
+                    }
+                    
                 }           
                 
                 textBox1.Text = $"{textBox1.Text} \n {DateTime.Now} \n User: {input}";
@@ -194,7 +232,7 @@ namespace FranzBot
         {
             try
             {
-                win2 insert = new win2();
+                Key_Eingabe insert = new Key_Eingabe();
                 insert.Show();
             }
             catch (Exception ex)
@@ -215,10 +253,16 @@ namespace FranzBot
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
+
+        /// <summary>
+        /// Öffnet das Fenster um die Angeben zu der SQL-Verbindung einzutragen
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuItem_Click_5(object sender, RoutedEventArgs e)
         {
 
-            win3 insert = new win3();
+            SQL_Connection insert = new SQL_Connection();
             insert.Show();
 
         }

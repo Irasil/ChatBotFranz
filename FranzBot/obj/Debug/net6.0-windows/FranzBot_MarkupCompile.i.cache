@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\App.xaml
-3257909235
+3243859221
 15751750
-7127139480
+71939925730
 2151531986717
-MainWindow.xaml;win2.xaml;win3.xaml;
+Key_Eingabe.xaml;MainWindow.xaml;SQL_Connection.xaml;
 
 False
 
