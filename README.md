@@ -1,7 +1,7 @@
 # ChatBotFranz
  Chat Bot
  
- Er kann Keywords von CSV,TXT,XML und einer SQL-Datenbank mit der Eingabe verglaiche und die vorher bestimmte Antwortgeben.
+ Er kann Keywords von CSV,TXT,XML und einer SQL-Datenbank mit der Eingabe vergleiche und die vorher bestimmte Antwort geben.
  Ausserdem kann er rechnen.
  
  Beisiel zum erstellen einer Datenbank:
