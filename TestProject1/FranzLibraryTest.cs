@@ -1,4 +1,5 @@
 using FranzBot;
+using FranzLibrary;
 using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
 
@@ -12,15 +13,15 @@ namespace FranzLibraryTestProject
 
 
         /// <summary>
-        /// Das erwartete Return der Methode Load() in der Classe Storage
+        /// Das erwartete Return der Methode Load() in der Classe XML_Storage();
         /// </summary>
         [Fact]
-        public void TestLoad()
+        public void TestLoadXML()
         {
             // Arrange
             string _input = "Hey";
             string end = "List.xml";
-            Storage storage = new Storage();
+            XML_Storage storage = new XML_Storage();
 
             //Act
             var result = storage.Load(_input, end);
@@ -31,59 +32,64 @@ namespace FranzLibraryTestProject
         }
 
         /// <summary>
-        /// Das erwartete Return der Methode Load1() in der Classe Storage
+        /// Das erwartete Return der Methode Load() in der CSV_TXT_Storage
         /// </summary>
         [Fact]
-        public void TestLoad1()
+        public void TestLoadCSV_TXT()
         {
             // Arrange
             string _input = "Hey";
             string end = "List.csv";
-            Storage storage = new Storage();
+            CSV_TXT_Storage storage = new CSV_TXT_Storage();
 
             //Act
-            var result = storage.Load1(_input, end);
+            var result = storage.Load(_input, end);
 
             //Assert
             Assert.Equal("Hallo", result);
         }
 
-        /// <summary>
-        /// Das erwartete Return der Methode Getanswer1() in der Classe BotEngine für die csv dateil
-        /// </summary>
-        [Fact]
-        public void TestGetanswer1()
-        {
-            //Avarage
-            string _input = "Hallo";
-            string end = "List.csv";
-            BotEngine message = new BotEngine();
-
-            //Act
-            var result = message.getAnswer1(_input, end);
-
-            //Assert
-            Assert.Equal("Guten Tag", result.ToString());
-
-        }
 
         /// <summary>
-        /// Das erwartete Return der Methode Getanswer() in der Classe BotEngine für die XML dateil
+        /// Das erwartete Return der Methode Loader() in der Classe Stroarge
         /// </summary>
         [Fact]
-        public void TestGetanswer()
+        public void TestLoader()
         {
             //Avarage
-            string _input = "Hallo";
+            string _input = "Hey";
             string end = "List.xml";
-            BotEngine message = new BotEngine();
+            //CSV_TXT_Storage storageCSV = new CSV_TXT_Storage();
+            XML_Storage storageXML = new XML_Storage();
+            Storage strXML = new Storage(storageXML);
 
             //Act
-            var result = message.getAnswer(_input, end);
+            var result = strXML.Loader(_input, end);
 
             //Assert
-            Assert.Equal("Guten Tag", result.ToString());
+            Assert.Equal("Hallo", result.ToString());
 
         }
+
+
+
+        ///// <summary>
+        ///// Das erwartete Return der Methode Getanswer() in der Classe BotEngine für die XML dateil
+        ///// </summary>
+        //[Fact]
+        //public void TestGetanswer()
+        //{
+        //    //Avarage
+        //    string _input = "Hallo";
+        //    string end = "List.xml";
+        //    BotEngine message = new BotEngine();
+
+        //    //Act
+        //    var result = message.getAnswer(_input, end, IStorage);
+
+        //    //Assert
+        //    Assert.Equal("Guten Tag", result.ToString());
+
+        //}
     }
 }
