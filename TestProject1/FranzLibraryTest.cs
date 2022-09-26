@@ -73,23 +73,24 @@ namespace FranzLibraryTestProject
 
 
 
-        ///// <summary>
-        ///// Das erwartete Return der Methode Getanswer() in der Classe BotEngine für die XML dateil
-        ///// </summary>
-        //[Fact]
-        //public void TestGetanswer()
-        //{
-        //    //Avarage
-        //    string _input = "Hallo";
-        //    string end = "List.xml";
-        //    BotEngine message = new BotEngine();
+        /// <summary>
+        /// Das erwartete Return der Methode Getanswer() in der Classe BotEngine für die XML dateil
+        /// </summary>
+        [Fact]
+        public void TestGetanswer()
+        {
+            //Avarage
+            string _input = "Hallo";
+            string end = "List.xml";
+            BotEngine message = new BotEngine();
+            XML_Storage storageXML = new XML_Storage();
 
-        //    //Act
-        //    var result = message.getAnswer(_input, end, IStorage);
+            //Act
+            var result = message.getAnswer(_input, end, storageXML);
 
-        //    //Assert
-        //    Assert.Equal("Guten Tag", result.ToString());
+            //Assert
+            Assert.Equal("Guten Tag", result.ToString());
 
-        //}
+        }
     }
 }
