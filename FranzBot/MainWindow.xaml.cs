@@ -59,6 +59,8 @@ namespace FranzBot
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        /// <exception cref="Exception">Thrown if there is a problem with the Input or Output within the Chat</exception>
+        /// <exception cref="ArgumentException">Thrown if there is a problem with the Input File or the inside of it</exception>
         private async void send_Click(object sender, RoutedEventArgs e)
         {
             string input = textBox.Text;
@@ -166,6 +168,7 @@ namespace FranzBot
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        /// <exception cref="Exception">Thrown if there is a problem with the saving of the log file</exception>
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
             SaveFileDialog Savedlg = new SaveFileDialog();
@@ -190,6 +193,7 @@ namespace FranzBot
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        /// <exception cref="Exception">Thrown if there is a problem with the opening of a file</exception>
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
             // Create OpenFileDialog 
@@ -228,6 +232,7 @@ namespace FranzBot
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        /// <exception cref="Exception">Thrown if there is a problem with adding a new keyword and the answer to it</exception>
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)
         {
             try
