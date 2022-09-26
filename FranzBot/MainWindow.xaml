@@ -11,13 +11,18 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="542*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="122*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="824*"/>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="30*"/>
         </Grid.ColumnDefinitions>
-        <DockPanel>
+        <DockPanel Grid.ColumnSpan="4" Grid.RowSpan="3">
             <Menu DockPanel.Dock="Top" Background="LightGray">
                 <MenuItem Header="_File">
                     <MenuItem Header="_Open" Click="MenuItem_Click_2" />
@@ -30,14 +35,14 @@
                     <MenuItem Header="Add Keyword" Click="MenuItem_Click_3"/>
                 </MenuItem>
                 <MenuItem Header="_About" Click="MenuItem_Click_4">
-               
+
                 </MenuItem>
             </Menu>
             <TextBox AcceptsReturn="True" BorderThickness="0" IsReadOnly = "True" Background="DimGray"/>
         </DockPanel>
-        <Button x:Name="send" Content="Send" IsDefault="True" VerticalAlignment="Center" Grid.Row="1" FontSize="16" Height="30" Click="send_Click" Margin="872,0,40,0" Background="White"/>
-        <TextBox x:Name="textBox" VerticalContentAlignment="Center" Margin="40,0,168,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="30" Grid.Row="1"/>
-        <TextBox x:Name="textBox1" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="920" Height="500"/>
+        <Button x:Name="send" Content="Send" IsDefault="True" VerticalAlignment="Center" Grid.Row="3" FontSize="16" Height="30" Click="send_Click" Margin="10,0,11,0" Background="White" Grid.Column="2"/>
+        <TextBox x:Name="textBox" VerticalContentAlignment="Center" Margin="7,0,10,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="30" Grid.Row="3" Grid.Column="1"/>
+        <TextBox x:Name="textBox1" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="920" Height="500" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,15,0,0" Grid.Row="1"/>
 
     </Grid>
 </Window>

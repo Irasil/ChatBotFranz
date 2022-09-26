@@ -121,8 +121,6 @@ C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotF
 C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\ref\FranzBot.dll
 C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\win2.g.cs
 C:\Users\Simon Stauffer\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\win2.baml
-C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\win2.g.cs
-C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\win2.baml
 C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.exe
 C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.deps.json
 C:\Users\Olaf\Source\Repos\Irasil\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\FranzBot.runtimeconfig.json
@@ -208,3 +206,5 @@ C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFr
 C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\SQL_Connection.g.cs
 C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\SQL_Connection.baml
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\Key_Eingabe.g.cs
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\Key_Eingabe.baml
