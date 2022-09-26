@@ -12,15 +12,17 @@
             <ColumnDefinition Width="53*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="71*"/>
-            <RowDefinition Height="141*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="46*"/>
+            <RowDefinition Height="76*"/>
+            <RowDefinition Height="65*"/>
             <RowDefinition Height="45*"/>
         </Grid.RowDefinitions>
-        <Label x:Name="label" Content="SQL-Server Name" HorizontalAlignment="Left" Margin="40,19,0,0" VerticalAlignment="Top" Grid.Row="1"/>
-        <Label x:Name="label1" Content="Name der Datenbank" HorizontalAlignment="Left" Margin="40,80,0,0" VerticalAlignment="Top" Grid.Row="1"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Grid.ColumnSpan="2"><Run Text="Verbindung"/><Run Language="de-ch" Text=" zu dem SQL-Server"/><Run Text=" "/></TextBlock>
-        <TextBox x:Name="tb_sqlname" HorizontalAlignment="Left" Margin="40,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
-        <TextBox x:Name="tb_dbname" HorizontalAlignment="Left" Margin="40,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
-        <Button x:Name="btn_sql" Content="Ok" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Width="38" Click="btn_sql_Click"/>
+        <Label x:Name="label" Content="SQL-Server Name" HorizontalAlignment="Left" Margin="43,14,0,0" VerticalAlignment="Top" Grid.Row="2" Height="26" Width="104"/>
+        <Label x:Name="label1" Content="Name der Datenbank" HorizontalAlignment="Left" Margin="43,10,0,0" VerticalAlignment="Top" Grid.Row="3" Height="26" Width="123"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Grid.ColumnSpan="2" Height="27" Width="283" Grid.Row="1"><Run Text="Verbindung"/><Run Language="de-ch" Text=" zu dem SQL-Server"/><Run Text=" "/></TextBlock>
+        <TextBox x:Name="tb_sqlname" HorizontalAlignment="Left" Margin="43,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Row="2" Height="18"/>
+        <TextBox x:Name="tb_dbname" HorizontalAlignment="Left" Margin="43,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Row="3" Height="18"/>
+        <Button x:Name="btn_sql" Content="Ok" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="1" Width="38" Click="btn_sql_Click" Height="20"/>
     </Grid>
 </Window>
