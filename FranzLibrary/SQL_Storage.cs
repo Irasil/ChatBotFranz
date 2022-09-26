@@ -9,7 +9,7 @@ namespace FranzLibrary
     public class SQL_Storage :  IStorage
     {
         string? Answer;
-        List<Message> list = new List<Message>();
+       public  List<Message> list = new List<Message>();
 
         /// <summary>
         /// Verbindung zu einem Sql-Server und die Auswertung der Keywörter

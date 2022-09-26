@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="FranzBot.Key_Eingabe">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Key_Eingabe.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FranzBot.MainWindow">
+    <Position X="5.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAAABAAAAAAAAAAABgAAAB8AAAAAAEAAIABAgAI=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_storage" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FranzBot.SQL_Connection">
+    <Position X="0.5" Y="3" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>SQL_Connection.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FranzBot.BotEngine">
+    <Position X="11.5" Y="1" Width="4" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FranzLibrary.Calculate">
+    <Position X="16.75" Y="1" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FranzLibrary.CSV_TXT_Storage">
+    <Position X="11.25" Y="8.5" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FranzBot.Message">
+    <Position X="11.5" Y="2.75" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FranzBot.Storage">
+    <Position X="11.5" Y="6.25" Width="3" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="_type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FranzLibrary.XML_Storage">
+    <Position X="6.25" Y="8.5" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FranzLibrary.SQL_Storage">
+    <Position X="2" Y="8.5" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="FranzLibrary.IStorage">
+    <Position X="6.5" Y="6.5" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
