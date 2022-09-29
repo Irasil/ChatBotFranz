@@ -101,7 +101,7 @@ namespace FranzBot {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FranzBot;V1.0.0.0;component/sql_connection.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FranzBot;component/sql_connection.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SQL_Connection.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

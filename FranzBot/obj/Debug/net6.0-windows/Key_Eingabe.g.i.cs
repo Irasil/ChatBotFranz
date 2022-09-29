@@ -93,7 +93,7 @@ namespace FranzBot {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/FranzBot;V1.0.0.0;component/key_eingabe.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/FranzBot;component/key_eingabe.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Key_Eingabe.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

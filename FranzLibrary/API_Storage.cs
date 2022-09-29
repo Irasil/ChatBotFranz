@@ -26,14 +26,14 @@ namespace FranzLibrary
         {
             try
             {
-                WebRequest? webRequest = WebRequest.Create(end);
+                WebRequest webRequest = WebRequest.Create(end);
                 webRequest.Method = "GET";
-                HttpWebResponse? webResponse = null;
+                HttpWebResponse webResponse = null;
                 webResponse = (HttpWebResponse?)webRequest.GetResponse();
-                string? data = null;
+                string data = null;
 
                 if(webResponse != null) { 
-                using (Stream? stream = webResponse.GetResponseStream())
+                using (Stream stream = webResponse.GetResponseStream())
                 {
                     StreamReader st = new StreamReader(stream);
                     data = st.ReadToEnd();
@@ -41,12 +41,11 @@ namespace FranzLibrary
                 }
                 }
 
-                Keywordlist? list = JsonConvert.DeserializeObject<Keywordlist>(data);
+                Keywordlist list = JsonConvert.DeserializeObject<Keywordlist>(data);
 
-                if (list.Keywords != null)
-                {
+              
 
-                    int? count = list.Keywords.Count;
+                    int count = list.Keywords.Count;
                     int i = 0;
 
                     
@@ -59,7 +58,7 @@ namespace FranzLibrary
                         }
                         i++;
                     }
-                }
+                
                 if (Answer == null)
                 {
                     Answer = "Ich habe dich leider nicht verstanden";

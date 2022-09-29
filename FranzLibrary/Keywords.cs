@@ -8,12 +8,12 @@ namespace FranzLibrary
 {
     public class Keyword
     {
-        public string? Frage { get; set; }
-        public string? Antwort { get; set; }
+        public string Frage { get; set; }
+        public string Antwort { get; set; }
     }
 
     public class Keywordlist
     {
-        public List<Keyword>? Keywords { get; set; }
+        public List<Keyword> Keywords { get; set; }
     }
 }
