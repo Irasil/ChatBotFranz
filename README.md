@@ -1,7 +1,7 @@
 # ChatBotFranz
  ### Chat Bot
  
- Er kann Keywords von CSV,TXT,XML und einer SQL-Datenbank mit der Eingabe vergleiche und die vorher bestimmte Antwort geben.
+ Er kann Keywords von CSV, TXT, XML, SQL-Datenbank und einem REST-Server mit der Eingabe des Users vergleiche und die vorher bestimmte Antwort geben.
  Ausserdem kann er rechnen.
  
  ### SQL-Server
