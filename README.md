@@ -51,6 +51,18 @@ CREATE TABLE list(
     );
 ```
 
-Danach die erstellte Datenbank auswählen und unter Importieren das CSV-File List.csv importieren. Mit dem Trennzeichen ";" und den Spalten "Frage, Antwort"
+Danach die erstellte Datenbank auswählen und unter Importieren das CSV-File List.csv importieren. Mit dem Trennzeichen ";".
+Falls das importieren nicht funktionier, unter "Formatspezifische Optionen:" schauen ob Spaltenname angegeben werden muss, wenn ja dies angeben:
+
+```
+Frage, Antwort
+```
+
+Im FranzBot unter File -> Oben API-Connection den Pfad zu der read.php Datei angeben.
+
+Beispiel:
+``` 
+http://127.0.0.1:8080/php_rest_chatbot/api/post/read.php
+```
 
  
