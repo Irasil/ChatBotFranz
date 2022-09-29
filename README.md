@@ -51,6 +51,6 @@ CREATE TABLE list(
     );
 ```
 
-Danach unter Importieren das CSV-File List.csv importieren. Mit dem Trennzeichen ";" und den Spalten "Frage, Antwort"
+Danach die erstellte Datenbank auswählen und unter Importieren das CSV-File List.csv importieren. Mit dem Trennzeichen ";" und den Spalten "Frage, Antwort"
 
  
