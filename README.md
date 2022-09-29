@@ -59,7 +59,7 @@ Danach die erstellte Datenbank auswählen und unter Importieren das CSV-File Lis
 Frage, Antwort
 ```
 
-Im FranzBot unter File -> Oben API-Connection den Pfad zu der read.php Datei angeben.
+Im FranzBot unter File -> Open API-Connection den Pfad zu der read.php Datei angeben.
 
 Beispiel:
 ``` 
