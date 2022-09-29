@@ -208,3 +208,6 @@ C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFr
 C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\SQL_Connection.baml
 C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\Key_Eingabe.g.cs
 C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\Key_Eingabe.baml
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\API.g.cs
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\obj\Debug\net6.0-windows\API.baml
+C:\Users\Administrator\OneDrive - ipso! Bildung\Schule\Modul 320\Repos\ChatBotFranz\FranzBot\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

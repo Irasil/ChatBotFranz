@@ -42,6 +42,16 @@ namespace FranzBot
         }
 
 
+        private static string apiname = "";
+
+        public static string APIName
+        {
+            get { return apiname; }
+            set { apiname = value; }
+
+        }
+
+
 
         /// <summary>
         /// Initialisiert das Fenster der Applikation 
@@ -98,6 +108,12 @@ namespace FranzBot
                     {
                         pfad = @$"Server={sqlname};Database={dbname};Integrated Security=True;Pooling=False";
                         output = botEngine.getAnswer(input, pfad, new SQL_Storage());
+                        answer = output.ToString();
+                    }
+                    else if(apiname != "")
+                    {
+                        pfad = apiname;
+                        output = botEngine.getAnswer(input, pfad, new API_Storage());
                         answer = output.ToString();
                     }
                     else
@@ -271,5 +287,15 @@ namespace FranzBot
             insert.Show();
 
         }
+
+        private void MenuItem_Click_6(object sender, RoutedEventArgs e)
+        {
+
+            API insert = new API();
+            insert.Show();
+
+        }
+
+
     }
 }

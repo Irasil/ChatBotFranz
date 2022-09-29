@@ -17,7 +17,7 @@ namespace FranzBot
         }
 
         /// <summary>
-        /// Speichert die Eingaben in die Variabeln.
+        /// Speichert die Eingaben in die Variabeln für die Verbindung zum SQL Server
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
