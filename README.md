@@ -1,9 +1,10 @@
 # ChatBotFranz
- Chat Bot
+ ###Chat Bot
  
  Er kann Keywords von CSV,TXT,XML und einer SQL-Datenbank mit der Eingabe vergleiche und die vorher bestimmte Antwort geben.
  Ausserdem kann er rechnen.
  
+ ### SQL-Server
  Beisiel zum erstellen einer Datenbank mit SQL-Server:
  ```
  
@@ -30,8 +31,8 @@
  ('Wie ist dein Name?','Meine Name ist FranzBot'
  );
  ```
- 
- Um die Rest-Verbindung zu testen:
+### REST-Server 
+Um die Rest-Verbindung zu testen:
 Den Ordner php_rest_chatbot in den htdocs Ordner von XAMPP verschieben.
 In XAMPP unter «config» -> Service and Port Settings den Main Port auf 8080 stellen.
 Anschliessend Apache und MySQL starten.
