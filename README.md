@@ -52,7 +52,8 @@ CREATE TABLE list(
 ```
 
 Danach die erstellte Datenbank auswählen und unter Importieren das CSV-File List.csv importieren. Mit dem Trennzeichen ";".
-Falls das importieren nicht funktionier, unter "Formatspezifische Optionen:" schauen ob Spaltenname angegeben werden muss, wenn ja dies angeben:
+
+!!! Falls das importieren nicht funktionier, unter "Formatspezifische Optionen:" schauen ob Spaltenname angegeben werden muss, wenn ja dies angeben:
 
 ```
 Frage, Antwort
