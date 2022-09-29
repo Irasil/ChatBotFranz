@@ -42,7 +42,7 @@ Das Admin Center von MySQL starten und neue Datenbank erstellen
 ```
 CREATE DATABASE keywordlist;
 
-use LIST
+use keywordlist;
 
 CREATE TABLE list(
     id int AUTO_INCREMENT PRIMARY KEY,
